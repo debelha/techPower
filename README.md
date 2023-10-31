@@ -7,3 +7,4 @@ Repository for storing tasks related to the Power Tech Programming Bootcamp
 ## Documentations 📚
 - [Git](https://git-scm.com/doc)
 - [GitHub](https://docs.github.com/pt)
+- [Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
