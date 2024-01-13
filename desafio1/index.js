@@ -34,7 +34,24 @@ rl.question("Qual o nome do seu herói? ", function(answer1) {
 
   rl.question("Quantos XP você tem? ", function(answer2) {
     XP = answer2;
-    console.log("Você tem " + XP + " XPs");
+
+    if (XP < 1000) {
+      console.log("O herói " + name + " está no nível de ferro.");
+    } else if (XP <= 2000) {
+      console.log("O herói " + name + " está no nível de bronze.");
+    } else if (XP <= 5000) {
+      console.log("O herói " + name + " está no nível de prata.");
+    } else if (XP <= 7000) {
+      console.log("O herói " + name + " está no nível de ouro.");
+    } else if (XP <= 8000) {
+      console.log("O herói " + name + " está no nível de platina.");
+    } else if (XP <= 9000) {
+      console.log("O herói " + name + " está no nível de ascendente.");
+    } else if (XP <= 10000) {
+      console.log("O herói " + name + " está no nível de imortal.");
+    } else {
+      console.log("O herói " + name + " está no nível de radiante.");
+    }
 
     rl.close();
   });
