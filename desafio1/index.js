@@ -57,7 +57,6 @@ rl.question("Qual o nome do seu herói? ", function(answer1) {
   });
 });
 
-// Adiciona um ouvinte de evento para quando a interface de leitura for fechada.
 rl.on('close', function() {
-  process.exit(0); // Encerra o processo Node.js
+  process.exit(0); 
 });
